@@ -11,9 +11,9 @@ load_dotenv()
 client = Groq()
 
 MODELS = [
-    "qwen/qwen3-32b",
+    "openai/gpt-oss-120b",
     "llama-3.1-8b-instant",
-    "meta-llama/llama-4-scout-17b-16e-instruct",
+    "openai/gpt-oss-20b",
 ]
 
 SQL_PROMPT = """You are an expert SQL developer. Generate a SQL query for the following:
