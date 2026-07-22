@@ -7,7 +7,7 @@ load_dotenv()
 
 client=Groq()
 
-JUDGE_MODEL =  "llama-3.3-70b-versatile"
+JUDGE_MODEL =  "qwen/qwen3.6-27b"
 JUDGE_PROMPT = """
                 You are an expert SQL evaluator.
                 Your job is to score a generated SQL query against an expexted SQL query
